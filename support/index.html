@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mune Support</title>
+<style>
+  :root {
+    --bg: #faf8f5;
+    --fg: #1c1a17;
+    --muted: #6b6560;
+    --line: #e3ddd5;
+    --accent: #3a3530;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141312;
+      --fg: #f0ece7;
+      --muted: #9c948c;
+      --line: #2c2a27;
+      --accent: #f0ece7;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 64px 20px 80px;
+  }
+  h1 {
+    font-size: 34px;
+    letter-spacing: -0.02em;
+    margin: 0 0 8px;
+  }
+  .lede {
+    color: var(--muted);
+    margin: 0 0 48px;
+  }
+  h2 {
+    font-size: 21px;
+    letter-spacing: -0.01em;
+    margin: 48px 0 16px;
+  }
+  h3 {
+    font-size: 17px;
+    margin: 28px 0 6px;
+  }
+  p { margin: 0 0 12px; }
+  a { color: var(--accent); }
+  .card {
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin: 24px 0 8px;
+  }
+  .email {
+    font-size: 20px;
+    font-weight: 600;
+    word-break: break-all;
+  }
+  .note {
+    color: var(--muted);
+    font-size: 15px;
+    margin: 6px 0 0;
+  }
+  .links a {
+    display: inline-block;
+    margin: 0 18px 8px 0;
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Mune Support</h1>
+  <p class="lede">Help, questions and feedback for the Mune app.</p>
+
+  <div class="card">
+    <p class="email"><a href="mailto:aleksandrachukova@gmail.com">aleksandrachukova@gmail.com</a></p>
+    <p class="note">We reply within 5 business days. Writing from the email you used in the app helps us find your account faster.</p>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+
+  <h3>How do I manage or cancel my subscription?</h3>
+  <p>Subscriptions are handled by Apple. Open the Settings app on your iPhone, tap your name, then Subscriptions, select Mune and choose Cancel. Access stays active until the end of the paid period.</p>
+
+  <h3>How do I restore a purchase?</h3>
+  <p>Open Mune, go to Settings inside the app and tap Restore Purchases. Make sure you are signed in with the same Apple ID used for the original purchase.</p>
+
+  <h3>How do I request a refund?</h3>
+  <p>Refunds are issued by Apple, not by us. Go to reportaproblem.apple.com, sign in with your Apple ID and select the purchase.</p>
+
+  <h3>How do I delete my account and my data?</h3>
+  <p>Open Settings inside the app and choose Delete Account. This removes your profile, test results and saved answers. If you cannot access the app, write to us and we will delete everything linked to your email.</p>
+
+  <h3>Is my data private?</h3>
+  <p>Your answers and test results are yours. We do not sell personal data. Details are in the Privacy Policy linked below.</p>
+
+  <h3>I found a bug or the app crashes</h3>
+  <p>Send us your device model, iOS version and what you were doing when it happened. A screenshot or screen recording speeds things up a lot.</p>
+
+  <h2>Documents</h2>
+  <p class="links">
+    <a href="https://app.notion.com/p/Privacy-Policy-383482bcf974804e9299c07a98492c7e?source=copy_link">Privacy Policy</a>
+    <a href="https://app.notion.com/p/Terms-of-Use-383482bcf974805997e5cb119f733422?source=copy_link">Terms of Use</a>
+  </p>
+
+  <footer>
+    <p>Mune is an independent app. It is not a medical or psychological service and does not replace professional care.</p>
+  </footer>
+
+</main>
+</body>
+</html>
